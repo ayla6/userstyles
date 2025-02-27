@@ -4,6 +4,8 @@ This userstyle makes Brave less brave / makes it less web3 slop looking.
 
 Look at this! Isn't it just so much nicer? No ugly lion or ugly gradients, just a normal looking website. Not particularly pretty, but not at all ugly.
 
+idk how to make the images smaller and am too lazy to look it up
+
 Before
 ![disguting looking website](./before.webp)
 After
