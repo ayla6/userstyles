@@ -1,3 +1,4 @@
+@-moz-document domain("search.brave.com") {
 :root {
   --gradient-icons-active: none;
   --brand-font: system-ui;
@@ -198,4 +199,5 @@
   .suggestions {
     gap: var(--spacing-m) !important;
   }
+}
 }
