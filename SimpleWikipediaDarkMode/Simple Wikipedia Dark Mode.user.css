@@ -1,0 +1,21 @@
+/*
+==UserStyle==
+@name           Simple Wikipedia Dark Mode
+@note           modification of https://userstyles.world/api/style/20583.user.css
+@run-at         document-start
+==/UserStyle==
+*/
+
+@-moz-document domain('wikipedia.org'), domain('wiki.archlinux.org'), domain('wiktionary.org') {
+  @media (prefers-color-scheme: dark) {
+    img {
+      background: white;
+    }
+    html:not(:has(div)), body {
+      background: rgba(0,0,0,0.95);
+    }
+    body, img, video, iframe {
+      filter: invert(0.95) hue-rotate(180deg);
+    }
+  }
+}
