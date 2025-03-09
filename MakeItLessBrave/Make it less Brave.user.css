@@ -9,8 +9,8 @@
 @-moz-document domain('search.brave.com') {
   :root {
   --gradient-icons-active: none;
-  --brand-font: system-ui;
-  --main-font: system-ui;
+  --brand-font: system-ui, sans-serif;
+  --main-font: system-ui, sans-serif;
   /*--spacing-xs: .1rem;
   --spacing-s: .2rem;
   --spacing-m: .4rem;
